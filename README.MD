@@ -22,9 +22,20 @@ https://github.com/achrafhammi/J2EEArchitectureCourse/blob/b389e6e4b4a66729ed52b
 https://github.com/achrafhammi/J2EEArchitectureCourse/blob/b389e6e4b4a66729ed52b437ea9732409d01b841/src/main/java/ma/enset/presentation/Presentation.java#L11-L19
 ### 5. b Instantiation Dynamique
 https://github.com/achrafhammi/J2EEArchitectureCourse/blob/b389e6e4b4a66729ed52b437ea9732409d01b841/src/main/java/ma/enset/presentation/Presentation2.java#L16-L31
-### 5. C Instantiation par Spring: XML version
+
+### 5. c. 1 Instantiation par Spring: XML version
 https://github.com/achrafhammi/J2EEArchitectureCourse/blob/b389e6e4b4a66729ed52b437ea9732409d01b841/src/main/java/ma/enset/presentation/PresentationByXml.java#L11-L17
-https://github.com/achrafhammi/J2EEArchitectureCourse/blob/b389e6e4b4a66729ed52b437ea9732409d01b841/src/main/resources/spring-ioc.xml#L1C1-L9C9
-### 5. a Instantiation par Spring: Annotations
+avec spring-ioc.xml
+'<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="Dao" class="ma.enset.DAO.DaoImpl"/>
+    <bean id="Metier" class="ma.enset.services.MetierImpl">
+        <property name="dao" ref="Dao"/>
+    </bean>
+</beans>'
+
+### 5. c. 2 Instantiation par Spring: Annotations
 https://github.com/achrafhammi/J2EEArchitectureCourse/blob/b389e6e4b4a66729ed52b437ea9732409d01b841/src/main/java/ma/enset/presentation/PresentationByAnnotations.java#L7-L13
 

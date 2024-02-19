@@ -1,7 +1,10 @@
 package ma.enset.services;
 
 import ma.enset.DAO.IDao;
+import org.springframework.stereotype.Component;
 
+
+@Component("Metier")
 public class MetierImpl implements IMetier{
     private IDao dao;
 

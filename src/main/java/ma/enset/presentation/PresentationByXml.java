@@ -10,8 +10,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class PresentationByXml {
     public static void main(String[] args) {
-        /*ApplicationContext context=new ClassPathXmlApplicationContext("spring-ioc.xml");
-        IMetier metier= (IMetier) context.getBean("metier");
-        System.out.println(metier.calcul());*/
+        ApplicationContext context=new ClassPathXmlApplicationContext("spring-ioc.xml");
+        IMetier metier= (IMetier) context.getBean("Metier");
+        System.out.println(metier.calcul());
     }
 }

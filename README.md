@@ -4,4 +4,8 @@ Cette répertoire contient toutes les ressources relatives au module d'architect
 ## Sommaire
 
 [TP1 | Inversion de contrôle et Injection des dépendances | Part I: Branch(TP1Part1)](https://github.com/achrafhammi/J2EEArchitectureCourse/tree/TP1Part1)
+[TP2 | ORM, Jpa, Hibernate Spring Data | Branch: TP2](https://github.com/achrafhammi/J2EEArchitectureCourse/tree/TP2)
+[TP3 | Spring MVC Spring Data JPA Thymeleaf | Branch: TP2](https://github.com/achrafhammi/J2EEArchitectureCourse/tree/TP3)
+
+
 

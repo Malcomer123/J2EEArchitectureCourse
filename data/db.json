@@ -14,7 +14,7 @@
     },
     {
       "id": "4",
-      "name": "Product 3",
+      "name": "Product 3333",
       "price": 5360,
       "checked": true
     },
@@ -46,6 +46,36 @@
       "id": "10",
       "name": "Product 3",
       "price": 5360,
+      "checked": true
+    },
+    {
+      "id": "cd4b",
+      "name": "bonjour",
+      "price": "5066",
+      "checked": true
+    },
+    {
+      "id": "cd4b",
+      "name": "bonjour",
+      "price": "5066",
+      "checked": true
+    },
+    {
+      "id": "cd4b",
+      "name": "bonjour",
+      "price": "5066",
+      "checked": true
+    },
+    {
+      "id": "cd4b",
+      "name": "bonjour",
+      "price": "5066",
+      "checked": true
+    },
+    {
+      "id": "cd4b",
+      "name": "bonjour",
+      "price": "5066",
       "checked": true
     },
     {

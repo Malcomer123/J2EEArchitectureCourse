@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Product 1",
+      "price": 1000,
+      "checked": true
+    },
+    {
+      "id": "2",
+      "name": "Product 2",
+      "price": 1000,
+      "checked": true
+    },
+    {
+      "id": "4",
+      "name": "Product 3",
+      "price": 5360,
+      "checked": true
+    },
+    {
+      "id": "6",
+      "name": "Product 3",
+      "price": 5360,
+      "checked": true
+    },
+    {
+      "id": "7",
+      "name": "Product 3",
+      "price": 5360,
+      "checked": true
+    },
+    {
+      "id": "8",
+      "name": "Product 3",
+      "price": 5360,
+      "checked": true
+    },
+    {
+      "id": "9",
+      "name": "Product 3",
+      "price": 5360,
+      "checked": true
+    },
+    {
+      "id": "10",
+      "name": "Product 3",
+      "price": 5360,
+      "checked": true
+    },
+    {
+      "id": "cd4b",
+      "name": "bonjour",
+      "price": "5066",
+      "checked": true
+    }
+  ]
+}

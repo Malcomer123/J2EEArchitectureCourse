@@ -1,0 +1,22 @@
+<div class="p-3">
+  <div class="card">
+    <div class="card-body">
+      <ul class="nav">
+        <li>
+          <label class="border border-info p-1 bg-success text-white fw-bold ms-2">
+            Total: {{appState.productState.totalProducts}}
+          </label>
+          <label class="border border-info p-1 bg-info text-white fw-bold ms-2">
+            Pages: {{appState.productState.totalPages}}
+          </label>
+          <label class="border border-info p-1 bg-info text-white fw-bold ms-2">
+            Size: {{appState.productState.pageSize}}
+          </label>
+          <label class="border border-info p-1 bg-dark text-white fw-bold ms-2">
+            Checked: {{totalCheckedProducts()}}
+          </label>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

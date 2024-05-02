@@ -13,12 +13,6 @@
       "checked": true
     },
     {
-      "id": "4",
-      "name": "Product 3333",
-      "price": 5360,
-      "checked": true
-    },
-    {
       "id": "6",
       "name": "Product 3",
       "price": 5360,
@@ -83,6 +77,12 @@
       "name": "bonjour",
       "price": "5066",
       "checked": true
+    },
+    {
+      "name": "new",
+      "price": "057",
+      "checked": true,
+      "id": "_SD0mGW"
     }
   ]
 }

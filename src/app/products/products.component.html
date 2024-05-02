@@ -2,7 +2,7 @@
     <div class="card">
         <div class="card-body">
             <div class="card-body">
-                <input type="text" [(ngModel)]="keyword">
+                <input type="text" [(ngModel)]="appStateService.productState.keyword">
                 <button class="btn btn-outline-success ms-2" (click)="searchProducts()">
                     Search <i class="bi bi-search"></i>
                 </button>
@@ -17,7 +17,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let product of products">
+                    <tr *ngFor="let product of appStateService.productState.products">
                         <td>{{product.name}}</td>
                         <td>{{product.price}}</td>
                         <td>
@@ -40,9 +40,9 @@
                 </tbody>
             </table>
             <ul class="nav nav-pills">
-                <li *ngFor="let page of [].constructor(totalPages); let i=index;">
+                <li *ngFor="let page of [].constructor(appStateService.productState.totalPages); let i=index;">
                     <button (click)="handleGoToPage(i+1)"
-                            [ngClass]="currentPage==(i+1) ? 'btn btn-success' : 'btn btn-outline-success'">
+                            [ngClass]="appStateService.productState.currentPage==(i+1) ? 'btn btn-success' : 'btn btn-outline-success'">
                         {{i+1}}
                     </button>
                 </li>

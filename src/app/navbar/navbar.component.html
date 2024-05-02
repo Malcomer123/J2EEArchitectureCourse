@@ -1,0 +1,17 @@
+<nav class="p-3">
+  <ul class="nav nav-pills">
+    <li *ngFor="let action of actions">
+      <button
+        (click)="setCurrentAction(action)"
+        [class]="action==currentAction ? 'btn btn-success ms-1' : 'btn btn-outline-success ms-1'"
+        routerLink="{{ action.route }}"
+        class="">{{action.title}}
+        <i class="bi bi-{{action.icon}}"></i></button>
+    </li>
+    <li *ngIf='appState.productState.status == "LOADING"'>
+      <div class="spinner-border text-primary ms-2" role="status">
+
+      </div>
+    </li>
+  </ul>
+</nav>

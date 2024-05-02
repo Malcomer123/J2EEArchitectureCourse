@@ -1,16 +1,4 @@
-<nav class="p-3">
-  <ul class="nav nav-pills">
-    <li *ngFor="let action of actions">
-      <button 
-      (click)="setCurrentAction(action)"
-      [class]="action==currentAction ? 'btn btn-success ms-1' : 'btn btn-outline-success ms-1'"
-      routerLink="{{ action.route }}"
-      class="">{{action.title}}
-      <i class="bi bi-{{action.icon}}"></i></button>
-    </li>
-  </ul>
-</nav>
-
-<router-outlet>
-  
-</router-outlet>
+<app-navbar></app-navbar>
+<app-dashboard></app-dashboard>
+<app-app-errors></app-app-errors>
+<router-outlet></router-outlet>

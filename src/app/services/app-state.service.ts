@@ -13,11 +13,22 @@ export class AppStateService {
     pageSize: 5 as number,
     currentPage: 1 as number,
     status: "",
-    errorMessage: ""
+    errorMessage: "",
+  }
+
+  public authState: any={
+    username: undefined,
+    isAuthenticated: false,
+    roles: undefined,
+    token: undefined
   }
   constructor() { }
 
   public setProductState(state: any){
     this.productState = {...this.productState, ...state}
+  }
+
+  public setAuthState(state: any){
+    this.authState = {...this.authState, ...state}
   }
 }

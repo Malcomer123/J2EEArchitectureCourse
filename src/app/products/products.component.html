@@ -26,12 +26,13 @@
                                 <i [class]="product.checked ? 'bi bi-check' : 'bi bi-circle' "></i>
                             </button>
                         </td>
-                        <td>
+                        <td *ngIf="appStateService.authState.roles.includes('ADMIN')">
                             <button (click)="handleDeleteProduct(product)" class="btn btn-outline-danger">
                                 <i class="bi bi-trash"></i>
                             </button>
                         </td>
-                      <td>
+                      <td *ngIf="appStateService.authState.roles.includes('ADMIN')">
+
                         <button (click)="handleEditProduct(product)" class="btn btn-outline-warning">
                           <i class="bi bi-pen"></i>
                         </button>

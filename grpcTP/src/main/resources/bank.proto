@@ -1,0 +1,22 @@
+syntax = "proto3";
+option java_package="achraf.stubs";
+
+service BankService{
+  rpc convert(ConvertCurrencyRequest) returns (ConvertCurrencyResponse); //unuary model
+  rpc getCurrencyStream(ConvertCurrencyRequest) returns (stream ConvertCurrencyResponse); //server streaming model
+  rpc performStream(stream ConvertCurrencyRequest) returns (stream ConvertCurrencyResponse); //client streaming model
+  rpc performBidirectionalStream(stream ConvertCurrencyRequest) returns (stream ConvertCurrencyResponse); //bidirectional streaming model
+}
+
+message ConvertCurrencyRequest{
+  string from = 1;
+  string to = 2;
+  float amount = 3;
+}
+
+message ConvertCurrencyResponse{
+  string from=1;
+  string to=2;
+  float amount = 3;
+  float result=4;
+}

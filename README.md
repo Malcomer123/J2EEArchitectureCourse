@@ -9,5 +9,6 @@ Cette répertoire contient toutes les ressources relatives au module d'architect
 [TP4 | Angular Framework | Branch: TP4](https://github.com/achrafhammi/J2EEArchitectureCourse/tree/TP4)\
 [TP5 | Web services SOAP | Branch: TP5](https://github.com/achrafhammi/J2EEArchitectureCourse/tree/TP5)\
 [TP6 | GRPC et Micro -service Multi Connecteurs - GRPC SOAP GraphQL REST | PART I: Branch(TP6Part1)](https://github.com/achrafhammi/J2EEArchitectureCourse/tree/TP6PART1)\
+[TP6 | GRPC et Micro -service Multi Connecteurs - GRPC SOAP GraphQL REST | PART II: Branch(TP6Part2)](https://github.com/achrafhammi/J2EEArchitectureCourse/tree/TP6PART2)\
 
 
